@@ -1,8 +1,8 @@
 <?php
   session_start();
-  $servername = "hms.test"; //change this  accordingly
-  $dBUsername = "root";
-  $dBPassword = "root";
+  $servername = "localhost"; //change this  accordingly
+  $dBUsername = "aisyah";
+  $dBPassword = "cantiksangat-2";
   $dBName = "hostel_management_system";
  // session_start();
   $conn=mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
